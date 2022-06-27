@@ -155,7 +155,8 @@ address {
 
 /* Особенности */
 .section-title-hidden {
-    font-size: 0;
+    /* font-size: 0; */
+    display: none;
 }
 .features,
 .works,
