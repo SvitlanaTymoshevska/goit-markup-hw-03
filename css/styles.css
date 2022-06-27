@@ -104,7 +104,11 @@ address {
 }
 
 /* Главное */
-.section {
+.primary-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.secondary-section {
     padding-bottom: 94px;
 }
 .container {
@@ -119,7 +123,6 @@ address {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    margin-bottom: 94px;
     text-align:center;
 
     background-color: var(--background-primary-color);  
@@ -151,6 +154,9 @@ address {
 }
 
 /* Особенности */
+.section-title-hidden {
+    font-size: 0;
+}
 .features,
 .works,
 .team {
@@ -186,15 +192,13 @@ address {
 }
 .features p {
     margin-bottom: 0;
+    line-height: 24px;
 }
 
 /* Команда */
 .team {
     font-size: 16px;
     line-height: 1.19;
-}
-.team .img {
-    margin-bottom: 30px;
 }
 .team .title {  
     margin-top: 0;
@@ -203,16 +207,17 @@ address {
     font-size: 16px;
     font-weight: 500;
 }
-.team p {
-    margin-top: 0;
-    margin-bottom: 30px;
+.team-member {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 /* Проекты */
 .radio-buttons {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 .radio-buttons .item:not(:last-child) {
     margin-right: 8px;
@@ -251,8 +256,7 @@ address {
     margin-bottom: 30px;
 }
 .project-description {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 24px;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
@@ -266,6 +270,8 @@ address {
     letter-spacing: 0.06em;
 }
 .project {
+    margin-bottom: 0;
+    
     color: var(--primary-color);
     font-size: 16px;
     line-height: 1.88;
@@ -288,6 +294,9 @@ address {
 }
 .footer .link {
     color: rgba(255, 255, 255, 0.6);
+}
+.footer li:not(:last-child) {
+    margin-bottom: 9px;
 }
 .address {
     margin-top: 20px;
