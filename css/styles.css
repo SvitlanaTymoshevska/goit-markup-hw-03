@@ -213,6 +213,9 @@ address {
     padding-bottom: 30px;
     text-align: center;
 }
+.team p {
+    margin-bottom: 0;
+}
 
 /* Проекты */
 .radio-buttons {
@@ -280,11 +283,9 @@ address {
 
 /* Подвал */
 .footer {
-    background-color: var(--background-primary-color);
-}
-.footer .container {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: var(--background-primary-color);
 }
 .logo-footer {
     color: var(--white-color);
